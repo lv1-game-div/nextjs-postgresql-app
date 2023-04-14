@@ -1,0 +1,44 @@
+# local environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Next.js build output
+.next/
+out/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.sw*
+*.swo
+*.swn
+*.log
+*.tmp
+*.bak
+*.sublime*
+*.iml
+*.iml.*
+*.cache
+
+# Temporary files related to building and deploying the project
+*.lock
+*.pid
+*.seed
+*.pid.lock
+.cache/
+.DS_Store
+
+# Prisma
+*.backup
+prisma/migrations/dev.db
+prisma/migrations/dev.db-journal
